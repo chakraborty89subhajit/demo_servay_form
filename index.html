@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Servay Form || form for no use</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="" method="" action="">
+    <div class="container">
+       <header class="header">
+        <h1 id="title">Demo Servay Form</h1>
+        <p id="description">Thank you to take participate for this demo form</p>
+       </header>
+       
+       <div class="form_group">
+        
+        <label id="name_label">Name</label>
+        <input type="text" id="name" class="form_control" placeholder="Enter your name"/>
+       </div>
+
+       <div class="form_group">
+        <label id="name_label">Email</label>
+        <input type="email" id="email" class="form_control" placeholder="Enter your email"/>
+       </div>
+
+       <div class="form_group">
+        <label id="number_label">Age<span class="clue">(optional)</span></label>
+        <input type="number" id="age" min="10" max="99" class="form_control" placeholder="age"> 
+
+       </div>
+
+       <div class="form_group">
+        <p>Which option best describes your current role?</p>
+        <select id="dropdown_menu" name="role" class="form_control">
+            <option disabled selected value>Select current role</option>
+            <option value="student">Student</option>
+            <option value="job">Full time job</option>
+            <option value="learner">Full time learner</option>
+            <option value="preferNo">Prefer not to say</option>
+            <option value="other">Other</option>
+        </select>
+
+       </div>
+
+        <div class="form_group">
+            <p>Would you recomend demo servay form to your friends?</p>
+            <label>
+                <input
+                name="user_recomended"
+                value="definitely"
+                type="radio"
+                class="input_radio"
+                checked
+                />Definitely
+            </label>
+
+            <label>
+                <input
+                name="user_recomended"
+                value="maybe"
+                type="radio"
+                class="input_radio"
+                
+                />Maybe
+            </label>
+
+            <label>
+                <input
+                name="user_recomended"
+                value="not_sure"
+                type="radio"
+                class="input_radio"
+                
+                />Not sure
+            </label>
+
+        </div>
+        
+        <div class="form_group">
+          <p>What is your favorite topic foe survay?</p>
+          <select id="most_like" name="mostlike" class="form_control" required>
+            <option disabled selected value>Select an option</option>
+            <option value="science">Science</option>
+            <option value="technology">Technology</option>
+            <option value="geogarphy">Geogarphy</option>
+            <option value="mordernart">Mordern Art</option>
+            <option value="economics">Economics</option>
+
+          </select>
+        </div>
+         
+        <div class="form_group"> 
+          <p>What you like to see improved?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+          <label>
+            <input 
+            name="prefer"
+            value="computer_science"
+            type="checkbox"
+            class="input_checkbox"
+            />Computer Science
+          </label>
+
+          <label>
+            <input 
+            name="prefer"
+            value="information_technology"
+            type="checkbox"
+            class="input_checkbox"
+            />Information Technology
+          </label>
+
+          <label>
+            <input 
+            name="prefer"
+            value="data_science_and_visulization"
+            type="checkbox"
+            class="input_checkbox"
+            />Data Science And Visulization
+          </label>
+
+          <label>
+            <input 
+            name="prefer"
+            value="database_management"
+            type="checkbox"
+            class="input_checkbox"
+            />Database Management
+          </label>
+
+          <label>
+            <input 
+            name="prefer"
+            value="data_structure_and_algorithm"
+            type="checkbox"
+            class="input_checkbox"
+            />Data Structure And Algorithm
+          </label>
+
+        </div>
+        <div class="form_group">
+            <p>Any comments or suggestions?</p>
+            <textarea
+            id="comments"
+            class="input_textarea"
+            name="comment"
+            placeholder="Enter your comments hare....">
+
+            </textarea>
+
+        </div>
+        <div class="form_group">
+         <button type="submit" id="submit" class="submit_button">
+        Submit    
+        </button>
+        </div>
+      
+    </div>
+  </form>
+    
+</body>
+</html>
